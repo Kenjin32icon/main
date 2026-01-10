@@ -1,4 +1,6 @@
     Host: dogtaleskennels.co.ke
     Type: A
-    Points to: 75.2.60.5
-    TTL: 14400
+    Points to:
+        104.198.14.52
+        192.241.157.76 
+    TTL: 3600

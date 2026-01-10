@@ -1,3 +1,4 @@
-Host: www
-Points to: grand-bublanina-f1dc46.netlify.app
-TTL: 14400
+    Host: www
+    Type: CNAME
+    Points to: grand-bublanina-f1dc46.netlify.app
+    TTL: 3600
