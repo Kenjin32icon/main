@@ -703,3 +703,22 @@ body {
 .float-btn.youtube {
     background-color: #FF0000;
 }
+
+/* Icon images inside floating buttons */
+.float-btn .float-icon {
+    width: 60%;
+    height: 60%;
+    display: block;
+    object-fit: contain;
+}
+
+/* Slightly lift the button on active press to indicate hold/press feedback */
+.float-btn:active {
+    transform: scale(0.98);
+}
+
+/* Accessible focus ring */
+.float-btn:focus {
+    outline: 3px solid rgba(0,0,0,0.12);
+    outline-offset: 3px;
+}
